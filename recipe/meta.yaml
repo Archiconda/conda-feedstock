@@ -34,7 +34,7 @@ requirements:
     - m2-git               # [win]
   run:
     - python
-    - conda-env >=2.6
+    - conda-env >=2.6        # [not aarch64]
     - enum34                 # [py<34]
     - futures >=3.0.0        # [py<34]
     - menuinst               # [win]
